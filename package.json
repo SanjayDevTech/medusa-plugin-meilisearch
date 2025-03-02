@@ -1,5 +1,5 @@
 {
-  "name": "@rokmohar/medusa-plugin-meilisearch",
+  "name": "@biryanihouse/medusa-plugin-meilisearch",
   "version": "1.0.4",
   "description": "Meilisearch plugin for Medusa 2",
   "author": "Rok Mohar",
@@ -33,13 +33,13 @@
     "meilisearch": "^0.48.2"
   },
   "devDependencies": {
-    "@medusajs/admin-sdk": "^2.4.0",
-    "@medusajs/cli": "^2.4.0",
-    "@medusajs/framework": "^2.4.0",
-    "@medusajs/icons": "^2.4.0",
-    "@medusajs/medusa": "^2.4.0",
-    "@medusajs/test-utils": "^2.4.0",
-    "@medusajs/ui": "^4.0.3",
+    "@biryanihouse/admin-sdk": "^2.4.0",
+    "@biryanihouse/cli": "^2.4.0",
+    "@biryanihouse/framework": "^2.4.0",
+    "@biryanihouse/icons": "^2.4.0",
+    "@biryanihouse/medusa": "^2.4.0",
+    "@biryanihouse/test-utils": "^2.4.0",
+    "@biryanihouse/ui": "^4.0.3",
     "@mikro-orm/cli": "^6.4.3",
     "@mikro-orm/core": "^6.4.3",
     "@mikro-orm/knex": "^6.4.3",
@@ -66,13 +66,13 @@
     "yalc": "^1.0.0-pre.53"
   },
   "peerDependencies": {
-    "@medusajs/admin-sdk": "^2.4.0",
-    "@medusajs/cli": "^2.4.0",
-    "@medusajs/framework": "^2.4.0",
-    "@medusajs/icons": "^2.4.0",
-    "@medusajs/medusa": "^2.4.0",
-    "@medusajs/test-utils": "^2.4.0",
-    "@medusajs/ui": "^4.0.3",
+    "@biryanihouse/admin-sdk": "^2.4.0",
+    "@biryanihouse/cli": "^2.4.0",
+    "@biryanihouse/framework": "^2.4.0",
+    "@biryanihouse/icons": "^2.4.0",
+    "@biryanihouse/medusa": "^2.4.0",
+    "@biryanihouse/test-utils": "^2.4.0",
+    "@biryanihouse/ui": "^4.0.3",
     "@mikro-orm/cli": "^6.4.3",
     "@mikro-orm/core": "^6.4.3",
     "@mikro-orm/knex": "^6.4.3",
@@ -83,5 +83,6 @@
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

@@ -33,7 +33,7 @@ If you are using MedusaJS v2.3.1 or older, please use the [older version of this
 Add the plugin to your `medusa-config.ts` file:
 
 ```js
-import { loadEnv, defineConfig } from '@medusajs/framework/utils'
+import { loadEnv, defineConfig } from '@biryanihouse/framework/utils'
 
 loadEnv(process.env.NODE_ENV || 'development', process.cwd())
 

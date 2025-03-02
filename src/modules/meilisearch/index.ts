@@ -1,4 +1,4 @@
-import { Module } from '@medusajs/utils'
+import { Module } from '@biryanihouse/utils'
 import Loader from './loaders'
 import { MeiliSearchService } from './services'
 

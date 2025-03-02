@@ -10,7 +10,7 @@ new file mode 100644
 --- /dev/null	(date 1738512096945)
 +++ b/src/modules/search/templates/search-results-template/index.tsx	(date 1738512096945)
 @@ -0,0 +1,63 @@
-+import { Heading, Text } from "@medusajs/ui"
++import { Heading, Text } from "@biryanihouse/ui"
 +import Link from "next/link"
 +
 +import RefinementList from "@modules/store/components/refinement-list"
@@ -83,11 +83,11 @@ new file mode 100644
 --- /dev/null	(date 1738512096945)
 +++ b/src/modules/search/components/hit/index.tsx	(date 1738512096945)
 @@ -0,0 +1,52 @@
-+import { Container, Text } from "@medusajs/ui"
++import { Container, Text } from "@biryanihouse/ui"
 +
 +import Thumbnail from "@modules/products/components/thumbnail"
 +import LocalizedClientLink from "@modules/common/components/localized-client-link"
-+import { HttpTypes } from "@medusajs/types"
++import { HttpTypes } from "@biryanihouse/types"
 +
 +export type ProductHit = {
 +  id: string
@@ -145,7 +145,7 @@ new file mode 100644
 --- /dev/null	(date 1738512128155)
 +++ b/src/modules/search/components/hits/index.tsx	(date 1738512128155)
 @@ -0,0 +1,56 @@
-+import { clx } from "@medusajs/ui"
++import { clx } from "@biryanihouse/ui"
 +import React, { type JSX } from "react";
 +import {
 +  UseHitsProps,
@@ -211,7 +211,7 @@ new file mode 100644
 --- /dev/null	(date 1738512166503)
 +++ b/src/modules/search/components/show-all/index.tsx	(date 1738512166503)
 @@ -0,0 +1,33 @@
-+import { Container, Text } from "@medusajs/ui"
++import { Container, Text } from "@biryanihouse/ui"
 +import { useHits, useSearchBox } from "react-instantsearch"
 +
 +import InteractiveLink from "@modules/common/components/interactive-link"
@@ -274,7 +274,7 @@ new file mode 100644
 +
 +import { InstantSearch } from "react-instantsearch"
 +import { useRouter } from "next/navigation"
-+import { MagnifyingGlassMini } from "@medusajs/icons"
++import { MagnifyingGlassMini } from "@biryanihouse/icons"
 +
 +import { SEARCH_INDEX_NAME, searchClient } from "@lib/search-client"
 +import Hit from "@modules/search/components/hit"
@@ -433,7 +433,7 @@ new file mode 100644
 --- /dev/null	(date 1738512096945)
 +++ b/src/modules/search/components/search-box/index.tsx	(date 1738512096945)
 @@ -0,0 +1,91 @@
-+import { XMarkMini } from "@medusajs/icons"
++import { XMarkMini } from "@biryanihouse/icons"
 +import { FormEvent } from "react"
 +import { useRouter } from "next/navigation"
 +

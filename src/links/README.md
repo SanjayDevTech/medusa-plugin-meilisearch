@@ -8,8 +8,8 @@ For example:
 
 ```ts
 import BlogModule from '../modules/blog'
-import ProductModule from '@medusajs/medusa/product'
-import { defineLink } from '@medusajs/framework/utils'
+import ProductModule from '@biryanihouse/medusa/product'
+import { defineLink } from '@biryanihouse/framework/utils'
 
 export default defineLink(ProductModule.linkable.product, BlogModule.linkable.post)
 ```

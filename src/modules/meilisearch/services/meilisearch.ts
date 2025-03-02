@@ -1,5 +1,5 @@
-import { SearchTypes } from '@medusajs/types'
-import { SearchUtils } from '@medusajs/utils'
+import { SearchTypes } from '@biryanihouse/types'
+import { SearchUtils } from '@biryanihouse/utils'
 import { MeiliSearch, Settings } from 'meilisearch'
 import { meilisearchErrorCodes, MeilisearchPluginOptions } from '../types'
 import { transformProduct } from '../utils/transformer'

@@ -1,5 +1,5 @@
-import { SubscriberArgs, SubscriberConfig } from '@medusajs/framework'
-import { ProductEvents } from '@medusajs/utils'
+import { SubscriberArgs, SubscriberConfig } from '@biryanihouse/framework'
+import { ProductEvents } from '@biryanihouse/utils'
 import { MeiliSearchService } from '../modules/meilisearch'
 
 export default async function meilisearchProductDeleteMeilisearchHandler({

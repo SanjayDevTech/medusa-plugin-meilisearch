@@ -1,5 +1,5 @@
-import { SubscriberArgs, SubscriberConfig } from '@medusajs/framework'
-import { Modules, ProductEvents, SearchUtils } from '@medusajs/utils'
+import { SubscriberArgs, SubscriberConfig } from '@biryanihouse/framework'
+import { Modules, ProductEvents, SearchUtils } from '@biryanihouse/utils'
 import { MeiliSearchService } from '../modules/meilisearch'
 
 export default async function meilisearchProductUpsertHandler({

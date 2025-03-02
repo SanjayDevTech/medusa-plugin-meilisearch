@@ -1,4 +1,4 @@
-import type { SchedulerOptions } from '@medusajs/orchestration'
+import type { SchedulerOptions } from '@biryanihouse/orchestration'
 
 export type CronJobConfig = {
   name: string

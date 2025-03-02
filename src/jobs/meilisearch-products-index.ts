@@ -1,6 +1,6 @@
-import { MedusaContainer } from '@medusajs/framework'
+import { MedusaContainer } from '@biryanihouse/framework'
 import { MeiliSearchService } from '../modules/meilisearch'
-import { SearchUtils } from '@medusajs/utils'
+import { SearchUtils } from '@biryanihouse/utils'
 import { CronJobConfig } from '../models/CronJobConfig'
 
 export default async function meilisearchProductsIndexJob(container: MedusaContainer) {

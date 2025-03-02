@@ -1,4 +1,4 @@
-import { LoaderOptions } from '@medusajs/types'
+import { LoaderOptions } from '@biryanihouse/types'
 import { MeiliSearchService } from '../services'
 import { MeilisearchPluginOptions } from '../types'
 import { asValue } from 'awilix'

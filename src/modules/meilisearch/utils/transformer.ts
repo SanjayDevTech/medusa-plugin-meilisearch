@@ -1,4 +1,4 @@
-import { variantKeys } from '@medusajs/utils'
+import { variantKeys } from '@biryanihouse/utils'
 
 const prefix = `variant`
 

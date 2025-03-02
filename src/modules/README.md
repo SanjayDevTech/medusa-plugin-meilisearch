@@ -13,7 +13,7 @@ A data model represents a table in the database. You create a data model in a Ty
 For example, create the file `src/modules/blog/models/post.ts` with the following content:
 
 ```ts
-import { model } from '@medusajs/framework/utils'
+import { model } from '@biryanihouse/framework/utils'
 
 const Post = model.define('post', {
   id: model.id().primaryKey(),
@@ -30,7 +30,7 @@ A module must define a service. A service is a TypeScript or JavaScript class ho
 For example, create the file `src/modules/blog/service.ts` with the following content:
 
 ```ts
-import { MedusaService } from '@medusajs/framework/utils'
+import { MedusaService } from '@biryanihouse/framework/utils'
 import Post from './models/post'
 
 class BlogModuleService extends MedusaService({
@@ -48,7 +48,7 @@ For example, create the file `src/modules/blog/index.ts` with the following cont
 
 ```ts
 import BlogModuleService from './service'
-import { Module } from '@medusajs/framework/utils'
+import { Module } from '@biryanihouse/framework/utils'
 
 export const BLOG_MODULE = 'blog'
 
@@ -72,7 +72,7 @@ You can use the module in customizations within the plugin or within the Medusa 
 For example, to use the module in an API route:
 
 ```ts
-import { MedusaRequest, MedusaResponse } from '@medusajs/framework'
+import { MedusaRequest, MedusaResponse } from '@biryanihouse/framework'
 import BlogModuleService from '../../../modules/blog/service'
 import { BLOG_MODULE } from '../../../modules/blog'
 
@@ -92,7 +92,7 @@ export async function GET(req: MedusaRequest, res: MedusaResponse): Promise<void
 When you register the plugin in the Medusa application, it can accept options. These options are passed to the modules within the plugin:
 
 ```ts
-import { defineConfig } from '@medusajs/framework/utils'
+import { defineConfig } from '@biryanihouse/framework/utils'
 
 module.exports = defineConfig({
   // ...

@@ -1,4 +1,4 @@
-import { SearchTypes } from '@medusajs/types'
+import { SearchTypes } from '@biryanihouse/types'
 import { Config } from 'meilisearch'
 
 export const meilisearchErrorCodes = {
